@@ -576,3 +576,85 @@ body {
 .form-err {
   color: #ff8a8a;
 }
+
+
+/* ---------- Phone fixes ---------- */
+@media (max-width: 600px) {
+  /* Home */
+  .hero-text {
+    padding: 90px 20px 140px 20px;
+  }
+
+  .hero .small-title {
+    font-size: 1.05rem;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    font-size: 0.85rem;
+  }
+
+  .contact p br {
+    display: none;
+  }
+
+  .train-btn {
+    top: 16px;
+    right: 16px;
+    padding: 8px 18px;
+    font-size: 1rem;
+  }
+
+  .navbar {
+    width: 94%;
+    bottom: 20px;
+    overflow-x: auto;
+    justify-content: center;
+  }
+
+  .nav-item {
+    padding: 8px 9px;
+    font-size: 0.72rem;
+    white-space: nowrap;
+  }
+
+  /* Summary */
+  .summary-text {
+    font-size: 0.85rem;
+    padding-bottom: 130px;
+  }
+
+  /* Experience: leave room for the buttons at the bottom */
+  .experience {
+    padding: 60px 20px 110px;
+  }
+
+  .experience h2 {
+    font-size: 2.4rem;
+  }
+
+  .experience-text p {
+    font-size: 1rem;
+  }
+
+  /* Skills: photo on top, text below, full width */
+  .skills {
+    padding: 36px 20px 120px;
+  }
+
+  .skill-item {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .skill-item img {
+    width: 100%;
+    height: 220px;
+  }
+
+  /* Protocols */
+  .protocols {
+    padding: 40px 20px 120px;
+  }
+}
