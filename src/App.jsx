@@ -60,15 +60,15 @@ function Home({ current, setCurrent }) {
         </h1>
 
         <div className="contact">
-          <p> <br /> <br /><img className="icon" src="/images/mail.jpg" alt="Mail" />ragumaann5@gmail.com</p>
-          <p> <br /> <br /><img className="icon" src="/images/instagram.jpg" alt="Instagram" /> @ragumaannsharma</p>
-          <p><img className="icon" src="/images/call.jpg" alt="Call" />+91931569XXXX</p>
-          <p><img className="icon" src="/images/location.jpg" alt="Location" /> India, New Delhi</p>
+          <p> <br /> <br /><img className="icon" src="images/mail.jpg" alt="Mail" />ragumaann5@gmail.com</p>
+          <p> <br /> <br /><img className="icon" src="images/instagram.jpg" alt="Instagram" /> @ragumaannsharma</p>
+          <p><img className="icon" src="images/call.jpg" alt="Call" />+91931569XXXX</p>
+          <p><img className="icon" src="images/location.jpg" alt="Location" /> India, New Delhi</p>
         </div>
       </div>
 
-      {/* Put your photo at public/images/raghav.png */}
-      <img className="hero-photo" src="/images/raghav.png" alt="Raghav Sharma" />
+      {/* Put your photo at publicimages/raghav.png */}
+      <img className="hero-photo" src="images/raghav.png" alt="Raghav Sharma" />
 
       <Navbar current={current} setCurrent={setCurrent} />
     </section>
@@ -136,10 +136,10 @@ I'm still learning, improving, and pushing my limits every day. I believe there 
         </p>
       </div>
 
-      {/* Put your trophy photo at public/images/trophies.jpg */}
+      {/* Put your trophy photo at publicimages/trophies.jpg */}
       <img
         className="experience-photo"
-        src="/images/trophies.jpg"
+        src="images/trophies.jpg"
         alt="Shelves of trophies"
       />
 
@@ -154,32 +154,32 @@ I'm still learning, improving, and pushing my limits every day. I believe there 
 const skills = [
   {
     name: "Handstand",
-    image: "/images/handstand.jpg",
+    image: "images/handstand.jpg",
     text: "A handstand is more than just balancing upside down. It requires strong elevated shoulders, a tight core, proper body alignment, wrist control, and patience. Every small adjustment teaches you better control. With consistent practice, you build strength, balance, and confidence. Eventually, being upside down starts feeling natural—and completely under your control.",
   },
   {
     name: "L-Sit",
-    image: "/images/l-sit.jpg",
+    image: "images/l-sit.jpg",
     text: "The L-sit is a fundamental calisthenics skill that demands core strength, hip-flexor strength, shoulder stability, and compression. Holding your body off the ground with straight legs requires serious control. It builds a strong foundation for advanced skills like the V-sit, handstand, and press to handstand while improving overall body tension.",
   },
   {
     name: "Muscle-Up",
-    image: "/images/muscle-up.jpg",
+    image: "images/muscle-up.jpg",
     text: "The muscle-up is a powerful calisthenics skill that combines explosive pulling strength, pushing strength, coordination, and technique. Getting from below the bar to above it in one smooth movement requires strong pull-ups, a powerful transition, and solid control. It’s a skill that showcases strength, explosiveness, and body coordination.",
   },
   {
     name: "Front Lever",
-    image: "/images/front-lever.jpg",
+    image: "images/front-lever.jpg",
     text: "The front lever is a powerful calisthenics skill that demands incredible pulling strength, core tension, and shoulder control. Holding your body completely horizontal while hanging from a bar requires more than just strong lats. It takes precise technique, progressive strength development, and consistent practice to achieve clean, controlled reps.",
   },
   {
     name: "Planche",
-    image: "/images/planche.jpg",
+    image: "images/planche.jpg",
     text: "The planche is one of calisthenics’ most demanding skills, requiring exceptional straight-arm strength, shoulder stability, core tension, and body control. Holding your entire body parallel to the ground with only your hands supporting you takes patience and progressive training. It’s a true test of strength, control, and dedication.",
   },
   {
     name: "One Arm Handstand",
-    image: "/images/one-arm-handstand.jpg",
+    image: "images/one-arm-handstand.jpg",
     text: "The one-arm handstand takes the challenge of balance to another level. It requires exceptional shoulder strength, wrist control, core tension, and precise weight shifting. With one hand supporting your entire body, even the smallest adjustment matters. It’s a skill built through patience, consistency, and complete control over your body.",
   },
 ];
@@ -308,10 +308,10 @@ function Protocols({ goBack }) {
       </h2>
       <div className="protocols-arrow">▼</div>
 
-      {/* Photo of the four pillars: public/images/pillars.jpg */}
+      {/* Photo of the four pillars: publicimages/pillars.jpg */}
       <img
         className="pillars-img"
-        src="/images/pillars.jpg"
+        src="images/pillars.jpg"
         alt="The four pillars: Skill Specificity, Technique and Alignment, Practice Submaximally, Progressive Overload"
       />
 
